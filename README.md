@@ -15,6 +15,7 @@ Access to a Solr Corpus
 
 # Output
 The output is of the form:
+
 ```TERM  FREQUENCY```
 
 or
