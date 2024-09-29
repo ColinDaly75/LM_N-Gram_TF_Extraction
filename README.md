@@ -3,6 +3,8 @@ Using Language Modelling to Extracting Terms, Frequencies and NGrams from fields
 
 
 # run order
+```
  ./1-download-corpus.sh
  ./2-extract-tf.py
 
+```
