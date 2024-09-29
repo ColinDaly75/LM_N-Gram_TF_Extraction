@@ -14,7 +14,16 @@ Access to a Solr Corpus
 
 
 # Output
-```# head -15 ${CORPUS}_${FIELD}.txt
+The output is of the form:
+```TERM  FREQUENCY```
+
+or
+
+```N-GRAM FREQUENCT```
+
+For example, using a field from my own corpus, here the top 15 terms:
+```
+# head -15 ${CORPUS}_${FIELD}.txt
 events  9354
 pdf     7396
 library 7214
